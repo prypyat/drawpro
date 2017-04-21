@@ -14,6 +14,7 @@
 		DAB2B5021EAA4BFF0005DC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB2B5001EAA4BFF0005DC66 /* LaunchScreen.storyboard */; };
 		DAB2B50D1EAA4BFF0005DC66 /* drawproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2B50C1EAA4BFF0005DC66 /* drawproTests.swift */; };
 		DAB2B5181EAA4BFF0005DC66 /* drawproUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2B5171EAA4BFF0005DC66 /* drawproUITests.swift */; };
+		DAB2B5271EAA55FD0005DC66 /* Probably in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2B5261EAA55FD0005DC66 /* Probably */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DAB2B5131EAA4BFF0005DC66 /* drawproUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawproUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB2B5171EAA4BFF0005DC66 /* drawproUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawproUITests.swift; sourceTree = "<group>"; };
 		DAB2B5191EAA4BFF0005DC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB2B5261EAA55FD0005DC66 /* Probably */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Probably; path = ../Probably; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB2B5271EAA55FD0005DC66 /* Probably in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				DAB2B50B1EAA4BFF0005DC66 /* drawproTests */,
 				DAB2B5161EAA4BFF0005DC66 /* drawproUITests */,
 				DAB2B4F51EAA4BFF0005DC66 /* Products */,
+				DAB2B5251EAA55FD0005DC66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				DAB2B5191EAA4BFF0005DC66 /* Info.plist */,
 			);
 			path = drawproUITests;
+			sourceTree = "<group>";
+		};
+		DAB2B5251EAA55FD0005DC66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2B5261EAA55FD0005DC66 /* Probably */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +517,7 @@
 				DAB2B51E1EAA4BFF0005DC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAB2B51F1EAA4BFF0005DC66 /* Build configuration list for PBXNativeTarget "drawproTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				DAB2B5211EAA4BFF0005DC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAB2B5221EAA4BFF0005DC66 /* Build configuration list for PBXNativeTarget "drawproUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				DAB2B5241EAA4BFF0005DC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
